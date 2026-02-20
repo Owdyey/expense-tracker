@@ -26,7 +26,9 @@ export default function SignInForm() {
           Sign in to start tracking your expenses
         </CardDescription>
         <CardAction>
-          <Button variant="link">Sign Up</Button>
+          <Button variant="outline" className="rounded-full">
+            Sign Up
+          </Button>
         </CardAction>
       </CardHeader>
       <CardContent>

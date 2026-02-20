@@ -39,7 +39,9 @@ export default function SignUpForm() {
           Start tracking your expenses in minutes.
         </CardDescription>
         <CardAction>
-          <Button variant="link">Sign Up</Button>
+          <Button variant={"outline"} className="rounded-full">
+            Sign In
+          </Button>
         </CardAction>
       </CardHeader>
       <CardContent>

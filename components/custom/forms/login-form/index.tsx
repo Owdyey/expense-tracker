@@ -21,7 +21,7 @@ export default function SignInForm() {
   return (
     <Card className="w-full max-w-md">
       <CardHeader>
-        <CardTitle className="text-[18px] font-semibold">Sign In</CardTitle>
+        <CardTitle>Sign In</CardTitle>
         <CardDescription>
           Sign in to start tracking your expenses
         </CardDescription>
@@ -39,7 +39,7 @@ export default function SignInForm() {
                 <Label htmlFor="password">Email</Label>
               </div>
               <Input
-                id="password"
+                id="email"
                 type="email"
                 required
                 placeholder="juan@example.com"

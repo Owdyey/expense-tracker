@@ -32,9 +32,7 @@ export default function SignUpForm() {
   return (
     <Card className="w-full max-w-md">
       <CardHeader>
-        <CardTitle className="text-[18px] font-semibold">
-          Create account
-        </CardTitle>
+        <CardTitle>Create account</CardTitle>
         <CardDescription>
           Start tracking your expenses in minutes.
         </CardDescription>
@@ -73,7 +71,7 @@ export default function SignUpForm() {
                     <Label htmlFor="password">Email</Label>
                   </div>
                   <Input
-                    id="password"
+                    id="email"
                     type="email"
                     required
                     placeholder="juan@example.com"
